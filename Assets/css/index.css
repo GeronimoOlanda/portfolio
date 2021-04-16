@@ -70,3 +70,29 @@ body{
     0%{transform: translateX(0);}
     100%{transform: translateY(10px);}
 }
+
+/*#### ABOUT ME ####*/
+
+.about{
+    padding-top:100px;
+    padding-bottom: 20px;
+}
+.profile-img{
+    height: 400px;
+}
+
+nav ul{
+    margin-left: auto;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.nav-bar{
+    background-color: #000;
+}
+.navbar-brand img{
+    height: 50px;
+}
