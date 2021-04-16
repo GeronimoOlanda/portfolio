@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
+/*###### BODY ######*/
+body{
     margin: 0;
     border: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-/*###### BODY ######*/
-body{
-
 }
 
 /*#### HEADER #### */
@@ -96,3 +93,30 @@ nav ul{
 .navbar-brand img{
     height: 50px;
 }
+.nav-bar .fa-bars{
+    font-size: 35px;
+    color: #fff;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav{
+    float: right;
+    text-align: right;
+}
+.nav-link{
+    color: #fff !important;
+}
+.skills-bar p{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+.progress-bar{
+    border-radius: 16px;
+    background: #000 !important;
+}
+
