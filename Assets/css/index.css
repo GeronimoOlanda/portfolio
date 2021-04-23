@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 :root{
   --white: #fff;
+  --circle-user-color: #2494d4;
 }
 
 /*###### BODY ######*/
@@ -35,7 +36,7 @@ body{
 .user-box img{
 
     width: 250px;
-    border:  2px solid #6caed5;
+    border:  2px solid var(--circle-user-color);
     border-radius: 50%;
 
 }
@@ -88,6 +89,7 @@ body{
 .profile-img{
     border-radius: 1%;
     height: 400px;
+    border:  1px solid rgb(141, 138, 138);
 }
 
 nav ul{
