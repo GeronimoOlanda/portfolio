@@ -8,3 +8,6 @@
 * Bootstrap
 * JavaScript(ES6);
 * JQuery
+
+#### Outros
+* .editorconfig(personalizada padrao para o vscode);
